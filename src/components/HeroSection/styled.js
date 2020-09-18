@@ -1,0 +1,39 @@
+import styled from "styled-components"
+
+export const HeroSectionWrapper = styled.section`
+    background-color: #121212;
+    padding-bottom: 2rem;
+`
+
+export const HeroContainer = styled.div`
+    width: 100%;
+    padding: 0 1.6rem;
+    display: block;
+    margin: 0 auto;
+`
+
+export const HeroName = styled.h3`
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+    color: #bdbdbd;
+    font-weight: 400;
+`
+
+export const HeroValor = styled.h1`
+    font-size: 3.2rem;
+    color: #bdbdbd;
+    margin-bottom: 2.6rem;
+    font-weight: 600;
+`
+
+export const HeroSpan = styled.span`
+    color: #e20749;
+`
+
+export const HeroDescription = styled.p`
+    color: #bdbdbd;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 2.6rem;
+    line-height: 120%;
+`
