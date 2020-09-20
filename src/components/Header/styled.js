@@ -2,27 +2,38 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 
+export const HeaderWrapper = styled.header`
+    width: 100%;
+`
 
 
-
-export const MenuLinksWrapper = styled.nav`
+export const MenuLinksNav = styled.nav`
+    position: absolute;
+    z-index: 2;
+    transform: translateY(100%);
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     min-height: 5rem;
     align-items: center;
-    padding: 2rem 3rem;
+    background-color: #141414;
+    display: none;
 `
 
 export const MenuLinksList = styled.ul`
     font-weight: 300;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 20rem;
+    width: 100%;
+    /* width: 20rem; */
 `
 
 export const MenuLinksItem = styled.li`
-    padding: 0.5rem 0;
+    padding: 2.5rem 0;
 
     .active {
         color: #E20749;
@@ -30,8 +41,8 @@ export const MenuLinksItem = styled.li`
 
     .active::after {
         content: '';
-        width: 4px;
-        height: 4px;
+        width: 6px;
+        height: 6px;
         border-radius: 2px;
         display: inline-block;
         background-color: #bdbdbd;
@@ -41,15 +52,16 @@ export const MenuLinksItem = styled.li`
 
 export const MenuLinksLink = styled(Link)`
     color: #bdbdbd;
-    font-size: .95rem;
+    font-size: 2.650rem;
+    /* font-size: .95rem; */
     font-weight: 500;
     text-decoration: none;
     transition: color .5s;
 
     &::after {
         content: '';
-        width: 4px;
-        height: 4px;
+        width: 6px;
+        height: 6px;
         border-radius: 2px;
         display: inline-block;
         background-color: #E20749;

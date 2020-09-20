@@ -17,7 +17,7 @@ const Logo = () => {
        ` 
     )
 
-    return <Img fixed={logoHeader.childImageSharp.fixed} />
+    return <Img fixed={logoHeader.childImageSharp.fixed} title="Gabriel Hercules" alt="My Logo" />
 }
 
 export default Logo

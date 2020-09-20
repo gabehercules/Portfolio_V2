@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Tabbar from "../Mobile/Tabbar"
-import MobileHeader from "../Mobile/MobileHeader"
+import Header from "../Header"
 
 import GlobalStyles from "../../styles/global"
 
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyles />
-      <MobileHeader />
+      <Header />
       <main>{children}</main>
       <Tabbar />
     </>

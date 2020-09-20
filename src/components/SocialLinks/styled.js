@@ -2,14 +2,16 @@ import styled from "styled-components"
 
 export const SocialLinksWrapper = styled.nav`
     display: flex;
-    flex-direction: column;
-    height: 500px;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 4.840rem;
 
 `
 
 export const SocialLnksList = styled.ul`
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
@@ -28,6 +30,6 @@ export const SocialLinksLink = styled.a`
 
 export const IconWrapper = styled.div`
     fill: #fafafa;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 `

@@ -1,8 +1,11 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export const TabbarWrapper = styled.div`
+export const TabbarWrapper = styled.nav`
     width: 100vw;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
 `
 
 export const TabbarGroup = styled.div`
@@ -11,7 +14,6 @@ export const TabbarGroup = styled.div`
     display: flex;
     padding: .8rem 0;
     justify-content: space-evenly;
-    position: fixed;
 `
 
 export const TabbarLink = styled(Link)`
