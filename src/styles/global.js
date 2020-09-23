@@ -61,4 +61,5 @@ img {
     height: auto;
 }
 `
+
 export default GlobalStyles

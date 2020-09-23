@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 export const HeroSectionWrapper = styled.section`
     background-color: #121212;
-    padding-bottom: 2rem;
+    min-height: 70vh;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 `
 
 export const HeroContainer = styled.div`
@@ -15,7 +17,7 @@ export const HeroContainer = styled.div`
 
 export const HeroName = styled.h3`
     font-size: 1rem;
-    margin-top: 1.2rem;
+    padding-top: 1.2rem;
     margin-bottom: 1.8rem;
     color: #bdbdbd;
     font-weight: 400;
@@ -23,7 +25,7 @@ export const HeroName = styled.h3`
 
 export const HeroValor = styled.h1`
     font-size: 3.2rem;
-    color: #bdbdbd;
+    color: #efefef;
     margin-bottom: 2.6rem;
     font-weight: 600;
 `

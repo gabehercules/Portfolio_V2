@@ -1,5 +1,6 @@
 import React from "react"
 
+import Logo from "../Logo"
 import links from "./content"
 
 import * as S from "./styled"
@@ -9,6 +10,12 @@ import * as S from "./styled"
 const Header = () => (
 
     <S.HeaderWrapper>
+        <S.HeaderLogo>
+            <Logo />
+            <S.HeaderName>
+                <h4>Gabriel Hercules</h4>
+            </S.HeaderName>
+        </S.HeaderLogo>
         <S.MenuLinksNav>
             <S.MenuLinksList>
                 {links.map((link, i) => (

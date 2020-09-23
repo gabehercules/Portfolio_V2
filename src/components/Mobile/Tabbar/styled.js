@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export const TabbarWrapper = styled.nav`
     width: 100vw;
-    position: absolute;
+    position: fixed;
     z-index: 3;
     bottom: 0;
 `

@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const ProjectsWrapper = styled.section`
     padding: 50px 1.6rem;
-
 `
 
 export const ProjectsTitle = styled.div`
@@ -14,7 +13,7 @@ export const ProjectsTitle = styled.div`
 
 export const ProjectsHeading = styled.h2`
     font-size: 2.2rem;
-    color: #bdbdbd;
+    color: #efefef;
     margin-bottom: 2.4rem;
     font-weight: 600;
 `
@@ -46,12 +45,13 @@ export const ProjectsGrid = styled.div`
 `
 
 export const ProjectsLink = styled.a`
-    margin-left: 20px;
+    margin-right: 20px;
 `
 
 export const ProjectsImg = styled.div`
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     border-radius: 5px;
+    margin-bottom: 2.2rem;
     background-color: #bdbdbd;
 `

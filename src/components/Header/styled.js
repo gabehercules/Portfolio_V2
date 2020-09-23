@@ -4,45 +4,54 @@ import { Link } from "gatsby"
 
 export const HeaderWrapper = styled.header`
     width: 100%;
+    display: flex;
+    padding: 1rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+`
+export const HeaderLogo = styled.div`
+    display: flex;
+    align-items: center;
 `
 
+export const HeaderName = styled.div`
+    margin-left: 1rem;
+
+    h4 {
+        font-size: 1.6rem;
+        color: #efefef;
+        font-weight: 600;
+    }
+`
 
 export const MenuLinksNav = styled.nav`
-    position: absolute;
-    z-index: 2;
-    transform: translateY(100%);
-    height: 100vh;
-    width: 100vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    min-height: 5rem;
+    min-height: 4rem;
     align-items: center;
-    background-color: #141414;
     display: none;
 `
 
+
 export const MenuLinksList = styled.ul`
-    font-weight: 300;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    /* width: 20rem; */
 `
 
 export const MenuLinksItem = styled.li`
-    padding: 2.5rem 0;
+    margin-left: 2rem;
 
     .active {
         color: #E20749;
+        font-weight: 600;
     }
 
     .active::after {
         content: '';
-        width: 6px;
-        height: 6px;
+        width: 4px;
+        height: 4px;
         border-radius: 2px;
         display: inline-block;
         background-color: #bdbdbd;
@@ -52,16 +61,15 @@ export const MenuLinksItem = styled.li`
 
 export const MenuLinksLink = styled(Link)`
     color: #bdbdbd;
-    font-size: 2.650rem;
-    /* font-size: .95rem; */
+    font-size: .95rem;
     font-weight: 500;
     text-decoration: none;
     transition: color .5s;
 
     &::after {
         content: '';
-        width: 6px;
-        height: 6px;
+        width: 4px;
+        height: 4px;
         border-radius: 2px;
         display: inline-block;
         background-color: #E20749;

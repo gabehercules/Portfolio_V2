@@ -4,7 +4,8 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import ProjectsSection from "../components/ProjectsSection"
-
+import WorkSection from "../components/WorkSection"
+import AdvantageSection from "../components/AdvantageSection"
 
 
 const IndexPage = () => (
@@ -12,8 +13,8 @@ const IndexPage = () => (
     <SEO title="Início" />
       <HeroSection />
       <ProjectsSection />
-
-
+      <WorkSection />
+      <AdvantageSection />
   </Layout>
 )
 
