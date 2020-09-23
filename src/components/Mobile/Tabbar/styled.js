@@ -6,6 +6,7 @@ export const TabbarWrapper = styled.nav`
     position: fixed;
     z-index: 3;
     bottom: 0;
+    left: 0;
 `
 
 export const TabbarGroup = styled.div`
@@ -29,4 +30,11 @@ export const TabbarItem = styled.div`
     position: relative;
     height: 2rem;
     width: 2rem;
+`
+
+export const TabbarName = styled.span`
+    color: #bdbdbd;
+    font-size: .6rem;
+    margin-top: 4px;
+    display: none;
 `
