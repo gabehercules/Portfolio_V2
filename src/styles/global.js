@@ -55,6 +55,13 @@ body {
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
 img {
     display: block;
     width: 100%;
