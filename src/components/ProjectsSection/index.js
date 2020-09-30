@@ -1,5 +1,7 @@
 import React from "react"
 import * as S from "./styled"
+import ProjectItem from "../ProjectItem"
+
 import { ListUl as GoForm } from "@styled-icons/boxicons-regular/ListUl"
 
 const ProjectsSection = () => (
@@ -16,21 +18,7 @@ const ProjectsSection = () => (
         </S.ProjectsTitle>
 
         <S.ProjectsGrid>
-            <S.ProjectsLink>
-                <S.ProjectsImg />
-            </S.ProjectsLink>
-
-            <S.ProjectsLink>
-                <S.ProjectsImg />
-            </S.ProjectsLink>
-
-            <S.ProjectsLink>
-                <S.ProjectsImg />
-            </S.ProjectsLink>
-
-            <S.ProjectsLink>
-                <S.ProjectsImg />
-            </S.ProjectsLink>
+            <ProjectItem />
         </S.ProjectsGrid>
     </S.ProjectsWrapper>
 )
