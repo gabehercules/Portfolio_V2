@@ -31,7 +31,7 @@ const Tabbar = () => (
                 </S.TabbarName>
             </S.TabbarLink>
 
-            <S.TabbarLink to="/" title="Abrir Menu">
+            <S.TabbarLink to="/blog" title="Abrir Menu">
                 <S.TabbarItem>
                     <IconBudget />
                 </S.TabbarItem>
