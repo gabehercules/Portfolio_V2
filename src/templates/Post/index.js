@@ -5,9 +5,12 @@ import * as S from "./styled"
 
 import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
+import RecommendedPosts from "../../components/RecommendedPosts"
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext }) => {
     const post = data.markdownRemark
+    const next = pageContext.nextPost
+    const previous = pageContext.previousPost
 
     return (
         <Layout>
@@ -20,6 +23,7 @@ const BlogPost = ({ data }) => {
           <S.MainContent>
               <div dangerouslySetInnerHTML={{__html: post.html }}></div>
           </S.MainContent>
+          <RecommendedPosts  next={next} previous={previous} />
         </Layout>
     )
 }
@@ -31,7 +35,7 @@ const BlogPost = ({ data }) => {
             slug
           }
           frontmatter {
-            date(locale: "pt-br", formatString: "DD [/] MM [/] YYYY")
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             title
             description
           }

@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 export const HeaderWrapper = styled.header`
@@ -8,7 +9,11 @@ export const HeaderWrapper = styled.header`
     padding: 1rem 1.6rem;
     justify-content: space-between;
     align-items: center;
-    background-color: #121212;
+    background-color: var(--lightBackground);
+
+    ${media.greaterThan("large")`
+        padding: 1rem 5.6rem;
+    `}
 `
 export const HeaderLogo = styled.div`
     display: flex;
@@ -20,17 +25,20 @@ export const HeaderName = styled.div`
 
     h4 {
         font-size: 1.6rem;
-        color: #efefef;
+        color: var(--title);
         font-weight: 600;
     }
 `
 
 export const MenuLinksNav = styled.nav`
-    display: flex;
     justify-content: center;
     min-height: 4rem;
     align-items: center;
     display: none;
+
+    ${media.greaterThan("medium")`
+        display: flex;
+    `}
 `
 
 
@@ -44,7 +52,7 @@ export const MenuLinksItem = styled.li`
     margin-left: 2rem;
 
     .active {
-        color: #E20749;
+        color: var(--contrast);
         font-weight: 600;
     }
 
@@ -54,13 +62,13 @@ export const MenuLinksItem = styled.li`
         height: 4px;
         border-radius: 2px;
         display: inline-block;
-        background-color: #bdbdbd;
+        background-color: var(--text);
         margin-left: 2px;
     }
 `
 
-export const MenuLinksLink = styled(Link)`
-    color: #bdbdbd;
+export const MenuLinksLink = styled(AniLink)`
+    color: var(--text);
     font-size: .95rem;
     font-weight: 500;
     text-decoration: none;
@@ -72,7 +80,7 @@ export const MenuLinksLink = styled(Link)`
         height: 4px;
         border-radius: 2px;
         display: inline-block;
-        background-color: #E20749;
+        background-color: var(--contrast);
         margin-left: 2px;
     }
 `

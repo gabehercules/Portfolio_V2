@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const PostHeader = styled.header`
-    color: #efefef;
+    color: var(--title);
     margin: auto;
     padding: 2rem 1.6rem;
 `
@@ -18,9 +18,9 @@ export const PostDescription = styled.h2`
 `
 
 export const PostDate = styled.p`
-    font-size: 1.2rem;
+    font-size: .9rem;
     font-weight: 300;
-    color: #bdbdbd;
+    color: var(--text);
 `
 
 export const MainContent = styled.section`
@@ -43,7 +43,7 @@ export const MainContent = styled.section`
   p {
     margin: 0 auto 1.6rem;
     font-weight: 300;
-    color: #bdbdbd;
+    color: var(--text);
   }
   h1,
   h2,
@@ -60,7 +60,7 @@ export const MainContent = styled.section`
   }
   li {
     padding: 0.625rem 0;
-    color: #efefef;
+    color: var(--title);
     & > ul {
       margin-bottom: 0;
     }
@@ -82,13 +82,13 @@ export const MainContent = styled.section`
     width: 100%;
   }
   blockquote {
-    color: #fff;
-    border-left: 0.2rem solid #e20749;
+    color: var(--text);
+    border-left: 0.2rem solid var(--contrast);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
   hr {
-    border: 1px solid #38444d;
+    border: 1px solid var(--contrast);
     margin: 3rem auto;
   }
   #twitter-widget-0,
@@ -104,7 +104,7 @@ export const MainContent = styled.section`
     font-weight: 600;
     letter-spacing: 0.069rem;
     line-height: 120%;
-    color: #fff;
+    color: var(--title);
   }
   h1 {
     font-size: 1.8rem;
@@ -155,12 +155,12 @@ export const MainContent = styled.section`
     }
   }
   a {
-    border-bottom: 1px dashed #e20749;
-    color: #efefef;
+    border-bottom: 1px dashed var(--contrast);
+    color: var(--title);
     text-decoration: none;
     transition: opacity 0.5s;
     svg {
-      color: #fff;
+      color: var(--text);
     }
     &:hover {
       opacity: 0.8;

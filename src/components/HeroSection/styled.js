@@ -1,8 +1,9 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import media from "styled-media-query"
 
 export const HeroSectionWrapper = styled.section`
-    background-color: #121212;
+    background-color: var(--lightBackground);
     min-height: 70vh;
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -11,43 +12,56 @@ export const HeroSectionWrapper = styled.section`
 export const HeroContainer = styled.div`
     width: 100%;
     padding: 0 1.6rem;
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    ${media.greaterThan("medium")`
+        padding: 0 5.6rem;
+    `}
+
+    ${media.greaterThan("991px")`
+        width: 60%;
+    `}
 `
 
 export const HeroName = styled.h3`
     font-size: 1rem;
     padding-top: 1.2rem;
     margin-bottom: 1.8rem;
-    color: #bdbdbd;
+    color: var(--text);
     font-weight: 400;
 `
 
 export const HeroValor = styled.h1`
     font-size: 3.2rem;
-    color: #efefef;
+    color: var(--title);
     margin-bottom: 2.6rem;
     font-weight: 600;
+
+    ${media.greaterThan("medium")`
+    font-size: 3.4rem;
+    `}
 `
 
 export const HeroSpan = styled.span`
-    color: #e20749;
+    color: var(--contrast);
 `
 
 export const HeroDescription = styled.p`
-    color: #bdbdbd;
+    color: var(--text);
     font-size: .9rem;
     font-weight: 400;
     margin-bottom: 2.6rem;
     line-height: 120%;
 `
-export const HeroCTA = styled(Link)`
+export const HeroCTA = styled(AniLink)`
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
     transition: 300ms ease-out;
-    color: #bdbdbd;
-    background-color: #181818;
+    color: var(--text);
+    background-color: var(--darkerBackground);
     text-decoration: none;
 `
 
@@ -55,7 +69,7 @@ export const BtnSpan = styled.span`
     height: 12px;
     vertical-align: middle;
     margin-left: .9rem;
-    color: #e20749;
+    color: var(--contrast);
 
     svg {
         width: 22px;

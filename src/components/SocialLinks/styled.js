@@ -24,7 +24,7 @@ export const SocialLinksLink = styled.a`
     transition: color 0.5s;
 
     &:hover {
-        color: #E20749;
+        color: var(--contrast);
     }
 `
 

@@ -50,7 +50,7 @@ table {
     box-sizing: border-box;
 }
 body {
-    background: #141414;
+    background: var(--background);
     line-height: 1;
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
@@ -66,6 +66,40 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--contrast);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--lightBackground);
+}
+
+body.dark {
+    --background: #141414;
+    --lightBackground: #181818;
+    --darkerBackground: #121212;
+    --contrast: #e20749;
+    --title: #efefef;
+    --text: #bdbdbd;
+    --white: #efefef;
+    --black: #121212;
+}
+
+body.light {
+    --background: #fafafa;
+    --lightBackground: #efefef;
+    --darkerBackground: #fefefe;
+    --contrast: #e20749;
+    --title: #121212;
+    --text: #181818;
+    --white: #efefef;
+    --black: #121212;
 }
 `
 

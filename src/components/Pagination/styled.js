@@ -4,16 +4,16 @@ export const PaginationWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #bdbdbd;
+    color: var(--text);
     padding: 1.5rem 1.6rem;
     
     a {
-        color: #bdbdbd;
+        color: var(--text);
         text-decoration: none;
         transition: color ease-out 500ms;
     }
 
-    &:hover {
-        color: #e20749;
+    a:hover {
+        color: var(--contrast);
     }
 `

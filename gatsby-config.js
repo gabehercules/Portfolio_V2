@@ -7,8 +7,17 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
 
+    // needs to be the first to work with gatsby-remar-images
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,7 +35,22 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              name: `uploads`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false,
+            },
+          },
+            `gatsby-remark-lazy-load`,
+        ],
       },
     },
 

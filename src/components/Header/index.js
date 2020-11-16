@@ -8,7 +8,6 @@ import * as S from "./styled"
 
 
 const Header = () => (
-
     <S.HeaderWrapper>
         <S.HeaderLogo>
             <Logo />
@@ -20,7 +19,7 @@ const Header = () => (
             <S.MenuLinksList>
                 {links.map((link, i) => (
                     <S.MenuLinksItem key={i}>
-                        <S.MenuLinksLink to={link.url} activeClassName="active">{link.label}</S.MenuLinksLink>
+                        <S.MenuLinksLink cover direction="left" bg="#141414" duration={0.6} to={link.url} activeClassName="active">{link.label}</S.MenuLinksLink>
                     </S.MenuLinksItem>
                 ))}
             </S.MenuLinksList>

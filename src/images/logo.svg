@@ -1,9 +1,9 @@
 <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="9" y="22" width="26" height="18" fill="#141414"/>
+<rect x="9" y="22" width="26" height="18" fill="var(--background)"/>
 <rect width="60.0161" height="61" fill="#E20749"/>
-<rect x="6.65576" y="8.2049" width="9.5082" height="46.5902" fill="#141414"/>
-<rect x="42.1639" y="28.1721" width="9.5082" height="26.623" fill="#141414"/>
-<rect x="52" width="18" height="26" transform="rotate(90 52 0)" fill="#141414"/>
-<rect x="51.6721" y="28.1721" width="9.5082" height="25.6721" transform="rotate(90 51.6721 28.1721)" fill="#141414"/>
-<rect x="32.3279" y="45.2869" width="9.5082" height="25.6721" transform="rotate(90 32.3279 45.2869)" fill="#141414"/>
+<rect x="6.65576" y="8.2049" width="9.5082" height="46.5902" fill="var(--background)"/>
+<rect x="42.1639" y="28.1721" width="9.5082" height="26.623" fill="var(--background)"/>
+<rect x="52" width="18" height="26" transform="rotate(90 52 0)" fill="var(--background)"/>
+<rect x="51.6721" y="28.1721" width="9.5082" height="25.6721" transform="rotate(90 51.6721 28.1721)" fill="var(--background)"/>
+<rect x="32.3279" y="45.2869" width="9.5082" height="25.6721" transform="rotate(90 32.3279 45.2869)" fill="var(--background)"/>
 </svg>

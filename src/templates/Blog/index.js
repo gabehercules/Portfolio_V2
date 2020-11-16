@@ -6,6 +6,7 @@ import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
 import PostItem from "../../components/PostItem"
 import Pagination from "../../components/Pagination"
+import BlogHeading from "../../components/BlogHeading"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -19,6 +20,8 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Blog" />
+      <BlogHeading />
+
       {postList.map(({
         node: {
           frontmatter: {
