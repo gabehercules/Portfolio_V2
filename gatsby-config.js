@@ -34,13 +34,6 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/src/images/teste`,
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -78,23 +71,7 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            subsets: [`latin`],
-            variants: [`400`, `500`, `600`, `700`]
-          },
-          {
-            family: `Jost`,
-            subsets: [`latin`],
-            variants: [`300`, `400`, `600`]
-          },
-        ],
-      },
-    }
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
