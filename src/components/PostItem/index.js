@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 
 const PostItem = ({ slug, category, date, timeToRead, title, description, thumbnail }) => (
-    <S.PostItemContainer>
     <S.PostItemLink cover direction="left" bg="#141414" duration={0.6} to={slug}>
         <S.PostItemWrapper>
             <S.PostItemThumb>
@@ -18,7 +17,6 @@ const PostItem = ({ slug, category, date, timeToRead, title, description, thumbn
             </S.PostItemContent>
         </S.PostItemWrapper>
     </S.PostItemLink>
-    </S.PostItemContainer>
 )
 
 PostItem.propTypes = {

@@ -1,20 +1,49 @@
 import styled from "styled-components"
+import media from "styled-media-query"
+
+
+export const PostHeaderWrapper = styled.div`
+  background-color: var(--lightBackground);
+`
 
 export const PostHeader = styled.header`
     color: var(--title);
     margin: auto;
     padding: 2rem 1.6rem;
+    max-width: 60rem;
 `
 
 export const PostTitle = styled.h1`
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     margin: 1rem 0;
+    line-height: 150%;
+
+    ${media.greaterThan("768px")`
+    font-size: 3rem;
+
+    `}
+
+    ${media.greaterThan("991px")`
+    font-size: 4.2rem;
+
+    `}
 `
 
 export const PostDescription = styled.h2`
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 150%;
     font-weight: 400;
+
+    ${media.greaterThan("768px")`
+    font-size: 2.2rem;
+
+    `}
+
+    ${media.greaterThan("991px")`
+    font-size: 2.2rem;
+
+    `}
 `
 
 export const PostDate = styled.p`

@@ -1,10 +1,22 @@
 import React, { useState, useEffect } from "react"
 
-import { Whatsapp } from "@styled-icons/boxicons-logos/Whatsapp"
-import { Menu } from "@styled-icons/boxicons-regular/Menu"
-import { ListUl as IconBudget } from "@styled-icons/boxicons-regular/ListUl"
-import { Grid as Portfolio } from "@styled-icons/bootstrap/Grid"
-import { Sun } from "@styled-icons/boxicons-regular/Sun"
+
+
+
+
+import { PenNib as Portfolio } from "@styled-icons/remix-line/PenNib"
+
+import { Home6 as Home } from "@styled-icons/remix-line/Home6"
+
+import { Draft as Blog } from "@styled-icons/remix-line/Draft"
+
+import { Whatsapp } from "@styled-icons/remix-line/Whatsapp"
+
+import { Instagram } from "@styled-icons/remix-line/Instagram"
+
+
+
+
 
 import * as S from "./styled"
 
@@ -24,7 +36,7 @@ const Tabbar = () => {
             <S.TabbarGroup>
                 <S.TabbarLink to="/" title="Voltar para o Início">
                     <S.TabbarItem>
-                        <Menu />
+                        <Home />
                     </S.TabbarItem>
                     <S.TabbarName>
                         Início
@@ -42,7 +54,7 @@ const Tabbar = () => {
 
                 <S.TabbarLink to="/blog" title="Abrir Menu">
                     <S.TabbarItem>
-                        <IconBudget />
+                        <Blog />
                     </S.TabbarItem>
                     <S.TabbarName>
                         Orçamento
@@ -62,7 +74,7 @@ const Tabbar = () => {
                     <S.TabbarItem title="Mudar o tema" onClick={() => {
                     window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
                 }}>
-                        <Sun />
+                        <Instagram />
                     </S.TabbarItem>
                     <S.TabbarName>
                         Mudar Tema

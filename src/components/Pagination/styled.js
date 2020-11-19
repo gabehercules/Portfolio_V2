@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PaginationWrapper = styled.div`
     display: flex;
@@ -6,6 +7,10 @@ export const PaginationWrapper = styled.div`
     align-items: center;
     color: var(--text);
     padding: 1.5rem 1.6rem;
+
+    ${media.greaterThan("768px")`
+        padding: 1.5rem 5.6rem;
+    `}
     
     a {
         color: var(--text);

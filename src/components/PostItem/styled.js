@@ -1,38 +1,59 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
-export const PostItemContainer = styled.div`
-    padding: 0 1.6rem;
-    margin-top: 5rem;
-`
 
 export const PostItemLink = styled(AniLink)`
     text-decoration: none;
+    background-color: var(--lightBackground);
+
+    border-radius: 10px;
+    transition: background ease-in 300ms;
+
+    &:hover {
+        background-color: #202020;
+    }
 `
 
 export const PostItemWrapper = styled.div`
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
+
+    ${media.greaterThan("600px")`
+        display: grid;
+        grid-template-columns: 220px auto;
+        margin-bottom: 0;
+    `}
 `
 
 export const PostItemThumb = styled.div`
     height: 150px;
     width: 100%;
-    background-color: var(--contrast);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     color: var(--title);
     font-weight: 600;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    ${media.greaterThan("600px")`
+    height: auto;
+    border-radius: 10px;
+    `}
 `
 
 export const PostItemContent = styled.div`
-    background-color: var(--lightBackground);
-    border-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 15px;
+
+    ${media.greaterThan("600px")`
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    `}
 `
 
 export const PostItemTag = styled.p`

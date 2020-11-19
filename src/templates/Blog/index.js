@@ -1,6 +1,7 @@
 import React from "react"
 
 import { graphql } from "gatsby"
+import * as S from "./styled"
 
 import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
@@ -21,6 +22,7 @@ const BlogList = props => {
     <Layout>
       <SEO title="Blog" />
       <BlogHeading />
+      <S.PostItemContainer>
 
       {postList.map(({
         node: {
@@ -44,6 +46,7 @@ const BlogList = props => {
             timeToRead={timeToRead}
           />
         ))}
+      </S.PostItemContainer>
       <Pagination 
         isFirst={isFirst} 
         isLast={isLast} 
