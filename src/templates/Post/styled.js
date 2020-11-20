@@ -53,7 +53,7 @@ export const PostDate = styled.p`
 `
 
 export const MainContent = styled.section`
-  padding: 0 1.6rem;
+  padding: 4rem 1.6rem;
   margin: auto;
   max-width: 60rem;
   p,
