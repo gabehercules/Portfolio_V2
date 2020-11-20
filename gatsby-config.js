@@ -3,7 +3,6 @@ module.exports = {
     title: `Gabriel Hercules | Brand Experience Designer`,
     description: `Hey! Eu sou o Gabriel. E desenvolvo experiências motivadoras para marcas, produtos e pessoas.`,
     author: `@Me`,
-    siteURL: `https://gabe-portfolio.netlify.app`,
   },
 
   plugins: [
@@ -72,7 +71,6 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,
 
     
