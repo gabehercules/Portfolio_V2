@@ -27,7 +27,7 @@ const ContactForm = () => (
                     <label>Deixe uma mensagem</label>
                     <textarea name="message" />
                 </div>
-                <button type="submit">Send</button>
+                <button type="submit">Enviar mensagem</button>
             </form>
         </S.FormBlock>
     </S.FormWrapper>
