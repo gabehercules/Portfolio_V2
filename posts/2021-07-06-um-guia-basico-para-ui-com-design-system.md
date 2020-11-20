@@ -1,18 +1,13 @@
 ---
-date: 2021-07-06 11:11:50
 title: Um guia básico para UI com design system
 description: Entenda como aplicar os mais famosos Design Systems do mercado em seus projetos
+date: 2021-07-06 11:11:50
+thumbnail: /assets/img/vulgar.jpg
 category: UI Design
 ---
-
 # Lorem Ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus felis id purus tincidunt suscipit. Nam blandit quam vel tortor viverra, non aliquam lectus commodo. [Suspendisse](https://www.gabehercules.me) commodo magna sagittis, ultrices urna vel, imperdiet quam. Donec auctor justo non nibh scelerisque, nec interdum sem bibendum. Maecenas tincidunt volutpat libero nec euismod. Cras tempor metus sit amet est dignissim, ac imperdiet est aliquam. Proin vitae augue eget libero congue semper. Nullam quis risus leo. Vivamus non bibendum turpis.
-
-```javascript
-a=3
-puts a
-```
 
 ## Lorem Ipsum Titulo 2
 
@@ -22,6 +17,12 @@ Lorem ipsum dolor `sit` amet, consectetur adipiscing elit. Nunc cursus felis id 
 ![Marccio Post](/assets/img/imagem-2.png)
 ![Marccio Post](/assets/img/imagem-2.png)
 ![Marccio Post](/assets/img/imagem-2.png)
+
+
+
+![Vulgar](/assets/img/vulgar.jpg "Vulgar")
+
+
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus felis id purus tincidunt suscipit. Nam blandit quam vel tortor viverra, non aliquam lectus commodo. Suspendisse commodo magna sagittis, ultrices urna vel, imperdiet quam. Donec auctor justo non nibh scelerisque, nec interdum sem bibendum. Maecenas tincidunt volutpat libero nec euismod. Cras tempor metus sit amet est dignissim, ac imperdiet est aliquam. Proin vitae augue eget libero congue semper. Nullam quis risus leo. Vivamus non bibendum turpis.
 
