@@ -7,6 +7,6 @@ category: HTML
 ---
 dfsdfsdfsdfs
 
-![](static/assets/img/vulgar.jpg)
+![sdffsdfs](/static/assets/img/vulgar.jpg "dfsdfsdf")
 
 sdfsdfsdfsdfsdf
