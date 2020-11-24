@@ -20,6 +20,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             name: "slug",
             value: `/blog/${slug.slice(12)}`,
         })
+
+        
     }
 }
 
@@ -34,13 +36,6 @@ exports.createPages = ({ graphql, actions }) => {
               fields {
                 slug
               }
-              frontmatter {
-                category
-                date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
-                description
-                title
-              }
-              timeToRead
             }
             next {
               frontmatter {
@@ -64,6 +59,7 @@ exports.createPages = ({ graphql, actions }) => {
       
     `).then(result => {
         const posts = result.data.allMarkdownRemark.edges
+        const projects = result.data.allMarkdownRemark.edges
 
         posts.forEach(({ node, next, previous }) => {
             createPage({
@@ -76,6 +72,18 @@ exports.createPages = ({ graphql, actions }) => {
                 },
             })
         })
+
+        projects.forEach(({ node, next, previous }) => {
+          createPage({
+              path: node.fields.slug,
+              component: path.resolve(`./src/templates/Project/index.js`),
+              context: {
+                  slug: node.fields.slug,
+                  previousPost: next,
+                  nextPost: previous
+              },
+          })
+      })
 
         const postsPerPage = 6
         const numPages = Math.ceil(posts.length / postsPerPage)
@@ -92,5 +100,18 @@ exports.createPages = ({ graphql, actions }) => {
                 }
             })
         })
+
+        Array.from({ length: numPages }).forEach((_, index) => {
+          createPage({
+              path: index === 0 ? `/portfolio` : `/portfolio/page/${index + 1}`,
+              component: path.resolve(`./src/templates/Portfolio/index.js`),
+              context: {
+                  limit: postsPerPage,
+                  skip: index * postsPerPage,
+                  numPages,
+                  currentPage: index + 1,
+              }
+          })
+      })
     })
 }

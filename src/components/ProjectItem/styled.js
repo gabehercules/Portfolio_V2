@@ -1,23 +1,84 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-export const ProjectSection = styled.section`
-    width: 100%;
+export const ProjectItemLink = styled(AniLink)`
+    text-decoration: none;
+    background-color: var(--lightBackground);
+
+    border-radius: 10px;
+    transition: background ease-in 300ms;
+
+    &:hover {
+        background-color: #202020;
+    }
 `
 
-export const ProjectLink = styled(Link)`
+export const ProjectItemWrapper = styled.div`
+    border-radius: 10px;
     width: 100%;
-    font-size: 2rem;
-    color: #fafafa;
+
+    ${media.greaterThan("600px")`
+        display: grid;
+        grid-template-columns: 220px auto;
+        margin-bottom: 0;
+    `}
 `
 
-export const ProjectWrapper = styled.div`
+export const ProjectItemThumb = styled.div`
+    height: 150px;
     width: 100%;
-    height: 300px;
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    color: var(--title);
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    ${media.greaterThan("600px")`
+    height: auto;
+    border-radius: 10px;
+    `}
 `
 
+export const ProjectItemContent = styled.div`
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
 
+    ${media.greaterThan("600px")`
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    `}
+`
+
+export const ProjectItemTag = styled.p`
+    color: var(--text);
+    font-size: .8rem;
+    margin-bottom: 7px;
+    margin-top: 7px;
+`
+
+export const ProjectItemTitle = styled.h2`
+    color: var(--contrast);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+`
+
+export const ProjectItemDescription = styled.p`
+    color: var(--title);
+    font-size: 1rem;
+    margin-bottom: 32px;
+    font-weight: 300;
+    line-height: 120%;
+`
+
+export const ProjectItemDate = styled.time`
+    font-size: .840rem;
+    color: var(--text);
+`
