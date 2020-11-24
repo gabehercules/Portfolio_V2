@@ -1,5 +1,4 @@
 import React from "react"
-import * as S from "./styled"
 import { graphql } from "gatsby"
 
 
@@ -74,7 +73,6 @@ export const query = graphql`
                 description
                 title
               }
-              timeToRead
             }
           }
         }

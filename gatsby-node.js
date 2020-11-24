@@ -15,17 +15,19 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         })
 
         // Creates new query'able field with name of 'slug'
-        createNodeField({
-            node,
-            name: "slug",
-            value: `/blog/${slug.slice(12)}`,
-        })
 
         createNodeField({
           node,
           name: "slug",
           value: `/portfolio/${slug.slice(12)}`,
       })
+
+      
+      createNodeField({
+        node,
+        name: "slug",
+        value: `/blog/${slug.slice(12)}`,
+    })
 
         
     }
@@ -36,25 +38,9 @@ exports.createPages = ({ graphql, actions }) => {
 
     return graphql(`
     {
-        allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+        allMarkdownRemark {
           edges {
             node {
-              fields {
-                slug
-              }
-            }
-            next {
-              frontmatter {
-                title
-              }
-              fields {
-                slug
-              }
-            }
-            previous {
-              frontmatter {
-                title
-              }
               fields {
                 slug
               }
@@ -64,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
       
     `).then(result => {
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.allMarkdownRemark.edges
         const projects = result.data.allMarkdownRemark.edges
 
         posts.forEach(({ node, next, previous }) => {
