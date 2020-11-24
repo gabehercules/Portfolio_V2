@@ -61,7 +61,7 @@ const BlogList = props => {
 
 export const query = graphql`
     query PostList($skip: Int!, $limit: Int!) {
-        allMarkdownRemark(
+        allMarkdownRemark( filter: { fileAbsolutePath: { regex: "/posts/" }}
             sort: { fields: frontmatter___date, order: DESC }
             limit: $limit
             skip: $skip

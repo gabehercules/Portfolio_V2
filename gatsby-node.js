@@ -21,6 +21,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             value: `/blog/${slug.slice(12)}`,
         })
 
+        createNodeField({
+          node,
+          name: "slug",
+          value: `/portfolio/${slug.slice(12)}`,
+      })
+
         
     }
 }
@@ -58,7 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
       
     `).then(result => {
-        const posts = result.data.allMarkdownRemark.edges
+        const posts = result.data.allMarkdownRemark.edges;
         const projects = result.data.allMarkdownRemark.edges
 
         posts.forEach(({ node, next, previous }) => {
