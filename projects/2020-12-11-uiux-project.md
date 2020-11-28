@@ -9,10 +9,6 @@ category: Web Design
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus felis id purus tincidunt suscipit. Nam blandit quam vel tortor viverra, non aliquam lectus commodo. [Suspendisse](https://www.gabehercules.me) commodo magna sagittis, ultrices urna vel, imperdiet quam. Donec auctor justo non nibh scelerisque, nec interdum sem bibendum. Maecenas tincidunt volutpat libero nec euismod. Cras tempor metus sit amet est dignissim, ac imperdiet est aliquam. Proin vitae augue eget libero congue semper. Nullam quis risus leo. Vivamus non bibendum turpis.
 
-```javascript
-a=3
-puts a
-```
 
 ## Lorem Ipsum Titulo 2
 

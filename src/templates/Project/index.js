@@ -17,7 +17,6 @@ const PortfolioProject = ({ data, pageContext }) => {
       <SEO title={post.frontmatter.title} />
       <S.ProjectHeaderWrapper>
         <S.ProjectHeader>
-          <S.ProjectDate>{post.frontmatter.date} - {post.timeToRead} min de leitura</S.ProjectDate>
           <S.ProjectTitle>{post.frontmatter.title}</S.ProjectTitle>
           <S.ProjectDescription>{post.frontmatter.description}</S.ProjectDescription>
         </S.ProjectHeader>
@@ -42,7 +41,6 @@ export const query = graphql`
             description
           }
           html
-          timeToRead
         }
       }
     `

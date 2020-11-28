@@ -12,5 +12,8 @@ export const PortfolioWrapper = styled.div`
 `
 
 export const PortfolioGrid = styled.div`
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 25px;
 `

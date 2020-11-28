@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-
+import * as S from "./styled"
 import SEO from "../../components/seo"
 import Layout from "../../components/Layout"
 import PortfolioHeading from "../../components/PortfolioHeading"
@@ -25,33 +25,34 @@ const PortfolioList = props => {
     <Layout>
       <SEO title="Portfólio" />
       <PortfolioHeading />
-    <>
-      {portfolioList.map(({
-        node: {
-          frontmatter: {
-            category,
-            title,
-            description
-          },
-          fields: { slug },
-        },
-      }) => (
-          <ProjectItem
-            slug={slug}
-            thumbnail="Post Teste"
-            category={category}
-            title={title}
-            description={description}
-          />
-        ))}
-        </>
-        <Pagination 
-        isFirst={isFirst} 
-        isLast={isLast} 
-        currentPage={currentPage} 
-        numPages={numPages} 
-        prevPage={prevPage} 
-        nextPage={nextPage} 
+      <S.PortfolioWrapper>
+        <S.PortfolioGrid>
+          {portfolioList.map(({
+            node: {
+              frontmatter: {
+                category,
+                title,
+                description
+              },
+              fields: { slug },
+            },
+          }) => (
+              <ProjectItem
+                slug={slug}
+                category={category}
+                title={title}
+                description={description}
+              />
+            ))}
+        </S.PortfolioGrid>
+      </S.PortfolioWrapper>
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
       />
     </Layout>
   )
