@@ -19,27 +19,28 @@ export const ProjectItemWrapper = styled.div`
     width: 100%;
 
     ${media.greaterThan("600px")`
-        display: grid;
-        grid-template-columns: 220px auto;
-        margin-bottom: 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr clamp(100px, 130px, 160px);
+    margin-bottom: 0;
     `}
 `
 
 export const ProjectItemThumb = styled.div`
     height: 150px;
     width: 100%;
+    background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: var(--title);
+    color: var(--text);
     font-weight: 600;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
     ${media.greaterThan("600px")`
-    height: auto;
-    border-radius: 10px;
+        height: clamp(220px, 310px, 350px);
     `}
 `
 

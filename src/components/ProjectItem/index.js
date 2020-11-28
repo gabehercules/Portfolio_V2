@@ -8,6 +8,7 @@ const ProjectItem = ({ slug, category, title, description }) => (
 
     <S.ProjectItemLink cover direction="left" bg="#141414" duration={0.6} to={slug}>
         <S.ProjectItemWrapper>
+            <S.ProjectItemThumb><small><p>Some thumb image here...</p></small></S.ProjectItemThumb>
             <S.ProjectItemContent>
                 <S.ProjectItemTag>{category}</S.ProjectItemTag>
                 <S.ProjectItemTitle>{title}</S.ProjectItemTitle>
