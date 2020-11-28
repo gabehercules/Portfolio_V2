@@ -32,13 +32,15 @@ const PortfolioList = props => {
               frontmatter: {
                 category,
                 title,
-                description
+                description,
+                thumbnail
               },
               fields: { slug },
             },
           }) => (
               <ProjectItem
                 slug={slug}
+                thumbnail={thumbnail}
                 category={category}
                 title={title}
                 description={description}
@@ -73,6 +75,7 @@ export const query = graphql`
                 category
                 description
                 title
+                thumbnail
               }
             }
           }

@@ -3,6 +3,8 @@ date: 2020-12-11 08:10:50
 title: UIUX Project
 description: Desenvolvimento de interface para o aplicativo web.
 category: Web Design
+thumbnail: vulgar.jpg
+
 ---
 
 # Lorem Ipsum

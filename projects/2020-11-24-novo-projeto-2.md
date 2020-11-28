@@ -3,6 +3,7 @@ title: Novo projeto 2
 description: "So mais um teste "
 date: 2020-11-24 03:07:02
 category: UI/UX
+thumbnail: vulgar.jpg
 ---
 <!--StartFragment-->
 

@@ -28,7 +28,7 @@ const PortfolioProjects = () => {
     return(
     <S.PortfolioLinks cover direction="left" bg="#141414" duration={0.6} to="/">
         {portfolioGallery.nodes.map(image => (
-                    <Img key={image.id} fluid={image.childImageSharp.fluid} alt="portfolioGallery" />
+                    <Img key={image.id} fluid={image.childImageSharp.fluid} alt={title} />
                 ))}
     </S.PortfolioLinks>
     )
