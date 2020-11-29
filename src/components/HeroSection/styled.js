@@ -17,7 +17,7 @@ export const HeroContainer = styled.div`
     align-items: baseline;
 
     ${media.greaterThan("medium")`
-        padding: 0 5.6rem;
+        padding: 0 8.6rem;
     `}
 
     ${media.greaterThan("991px")`

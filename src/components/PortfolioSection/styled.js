@@ -7,7 +7,7 @@ export const PortfolioWrapper = styled.div`
     border-radius: 10px;
 
     ${media.greaterThan("768px")`
-        padding: 4rem 5.6rem;
+        padding: 4rem 8.6rem;
     `}
 `
 

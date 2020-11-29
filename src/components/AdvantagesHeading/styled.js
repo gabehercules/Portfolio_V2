@@ -8,7 +8,7 @@ export const AdvantagesHeadingWrapper = styled.div`
 
     ${media.greaterThan("medium")`
         flex-direction: row;
-        padding: 0 5.6rem;
+        padding: 0 8.6rem;
         justify-content: space-between;
         margin-top: 50px;
     `}

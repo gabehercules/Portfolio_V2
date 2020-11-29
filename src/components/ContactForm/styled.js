@@ -5,7 +5,7 @@ export const FormWrapper = styled.div`
     padding: 4rem 1.6rem;
 
 ${media.greaterThan("768px")`
-    padding: 4rem 5.6rem;
+    padding: 4rem 8.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,10 +28,18 @@ export const ContactSubtitle = styled.p`
 
 export const FormBlock = styled.div`
     margin-top: 3rem;
-    width: 60%;
+    width: 100%;
     background-color: var(--lightBackground);
     padding: 2rem;
     border-radius: 10px;
+    
+    ${media.greaterThan("medium")`
+        width: 80%;
+    `}
+
+    ${media.greaterThan("991px")`
+        width: 60%;
+    `}
 
     div{
         display: flex;
@@ -71,28 +79,28 @@ export const FormBlock = styled.div`
 
     button{
         padding: 10px 20px;
-    background-color: var(--contrast);
-    border-radius: 5px;
-    display: inline-block;
-    transition: 300ms ease-out;
-    color: var(--title);
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    font-size: 1rem;
+        background-color: var(--contrast);
+        border-radius: 5px;
+        display: inline-block;
+        transition: 300ms ease-out;
+        color: var(--title);
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-size: 1rem;
     }
 
     input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active  {
-    box-shadow: 0 0 0 100px var(--darkerBackground) inset !important;
-    border: none !important;
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus, 
+    input:-webkit-autofill:active  {
+        box-shadow: 0 0 0 100px var(--darkerBackground) inset !important;
+        border: none !important;
 }
 
-input:-webkit-autofill {
-    -webkit-text-fill-color: var(--title) !important;
+    input:-webkit-autofill {
+        -webkit-text-fill-color: var(--title) !important;
 }
 `

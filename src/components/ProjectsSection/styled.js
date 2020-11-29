@@ -5,7 +5,7 @@ export const ProjectsWrapper = styled.section`
     padding: 50px 1.6rem;
 
     ${media.greaterThan("medium")`
-        padding: 50px 5.6rem 100px 5.6rem;
+        padding: 50px 8.6rem 100px 8.6rem;
     `}
 `
 

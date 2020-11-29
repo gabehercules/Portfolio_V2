@@ -24,7 +24,7 @@ import * as S from "./styled"
 const Tabbar = () => {
     const [theme, setTheme] = useState(null)
 
-    const  isDarkMode = theme === 'dark'
+    const isDarkMode = theme === 'dark'
 
     useEffect(() => {
         setTheme(window.__theme)
@@ -57,7 +57,7 @@ const Tabbar = () => {
                         <Blog />
                     </S.TabbarItem>
                     <S.TabbarName>
-                        Orçamento
+                        Contato
                 </S.TabbarName>
                 </S.TabbarLink>
 
@@ -72,12 +72,12 @@ const Tabbar = () => {
 
                 <S.TabbarLink>
                     <S.TabbarItem title="Mudar o tema" onClick={() => {
-                    window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
-                }}>
+                        window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
+                    }}>
                         <Instagram />
                     </S.TabbarItem>
                     <S.TabbarName>
-                        Mudar Tema
+                        Instagram
                 </S.TabbarName>
                 </S.TabbarLink>
             </S.TabbarGroup>

@@ -9,7 +9,7 @@ export const HeadingContent = styled.div`
     background-color: var(--lightBackground);
 
     ${media.greaterThan("medium")`
-        padding: 4rem 5.6rem;
+        padding: 4rem 8.6rem;
     `}
 `
 

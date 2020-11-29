@@ -7,7 +7,7 @@ export const ThankWrapper = styled.div`
     padding: 4rem 1.6rem;
 
     ${media.greaterThan("768px")`
-        padding: 4rem 5.6rem;
+        padding: 4rem 8.6rem;
     `}
 `
 

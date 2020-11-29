@@ -9,7 +9,7 @@ export const PaginationWrapper = styled.div`
     padding: 1.5rem 1.6rem;
 
     ${media.greaterThan("768px")`
-        padding: 1.5rem 5.6rem;
+        padding: 1.5rem 8.6rem;
     `}
     
     a {

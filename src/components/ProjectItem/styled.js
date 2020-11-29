@@ -28,7 +28,7 @@ export const ProjectItemWrapper = styled.div`
 `
 
 export const ProjectItemThumb = styled.div`
-    height: 150px;
+    height: 270px;
     width: 100%;
     background-color: #111;
     display: flex;
@@ -41,7 +41,7 @@ export const ProjectItemThumb = styled.div`
     border-top-right-radius: 10px;
 
     ${media.greaterThan("600px")`
-        height: clamp(160px,340px,360px);
+        height: clamp(300px,360px,380px);
     `}
 `
 

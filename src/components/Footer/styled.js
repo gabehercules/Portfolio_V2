@@ -4,15 +4,20 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 export const FooterWrapper = styled.footer`
-    width: 100%;
-    display: flex;
-    padding: 1rem 1.6rem;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--lightBackground);
+    display: none;
 
     ${media.greaterThan("large")`
-        padding: 1rem 5.6rem;
+        padding: 1rem 8.6rem;
+    `}
+
+    ${media.greaterThan("medium")`
+        width: 100%;
+        display: flex;
+        padding: 1rem 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--lightBackground);
+        flex-direction: row;
     `}
 `
 
@@ -35,21 +40,11 @@ export const MenuLinksList = styled.ul`
 `
 
 export const MenuLinksItem = styled.li`
-    margin-left: 2rem;
+    margin-right: 2rem;
 
     .active {
         color: var(--contrast);
         font-weight: 400;
-    }
-
-    .active::after {
-        content: '';
-        width: 4px;
-        height: 4px;
-        border-radius: 2px;
-        display: inline-block;
-        background-color: var(--text);
-        margin-left: 2px;
     }
 `
 
@@ -59,19 +54,11 @@ export const MenuLinksLink = styled(AniLink)`
     font-weight: 400;
     text-decoration: none;
     transition: color .5s;
-
-    &::after {
-        content: '';
-        width: 4px;
-        height: 4px;
-        border-radius: 2px;
-        display: inline-block;
-        background-color: var(--contrast);
-        margin-left: 2px;
-    }
 `
 
 export const CopyrightWrapper = styled.div`
+
+    margin-bottom: 1.2rem;
     
     p {
         font-size: .82rem;

@@ -11,8 +11,8 @@ export const HeaderWrapper = styled.header`
     align-items: center;
     background-color: var(--lightBackground);
 
-    ${media.greaterThan("large")`
-        padding: 1rem 5.6rem;
+    ${media.greaterThan("medium")`
+        padding: 1rem 8.6rem;
     `}
 `
 export const HeaderLogo = styled.div`

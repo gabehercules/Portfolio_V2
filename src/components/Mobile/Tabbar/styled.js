@@ -23,10 +23,12 @@ export const TabbarGroup = styled.div`
 `
 
 export const TabbarLink = styled(Link)`
-    display: block;
+    display: flex;
     padding: 5px;
-    background-color: var(--background);
-    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 `
 
 export const TabbarItem = styled.div`
@@ -41,5 +43,4 @@ export const TabbarName = styled.span`
     color: var(--text);
     font-size: .6rem;
     margin-top: 4px;
-    display: none;
 `

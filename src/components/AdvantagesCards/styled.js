@@ -6,7 +6,7 @@ export const AdvantageCardsWrapper = styled.div`
     padding: 50px 1.6rem;
 
     ${media.greaterThan("medium")`
-        padding: 50px 5.6rem;
+        padding: 50px 8.6rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:;
