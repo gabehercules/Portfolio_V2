@@ -2,7 +2,7 @@
 title: Sitee Concept Redesign
 description: A concept of Sitee web app, made to be ease to use, clean and performatic!
 date: 2020-11-29 09:59:05
-thumbnail: /assets/img/s-post-1.jpg
+thumbnail: s-post-1.jpg
 category: UI Design
 ---
 What I did

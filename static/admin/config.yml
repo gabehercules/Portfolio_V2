@@ -6,8 +6,8 @@ backend:
   site_doamin: gabe-portfolio.netlify.app/
 
 publish_mode: editorial_workflow
-media_folder: static/assets/img
-public_folder: /assets/img
+media_folder: static/assets/img/
+public_folder: ""
 
 
 collections:
