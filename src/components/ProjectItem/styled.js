@@ -7,6 +7,7 @@ export const ProjectItemLink = styled(AniLink)`
     background-color: var(--lightBackground);
 
     border-radius: 10px;
+    overflow: hidden;
     transition: background ease-in 300ms;
 
     &:hover {
@@ -21,7 +22,7 @@ export const ProjectItemWrapper = styled.div`
     ${media.greaterThan("600px")`
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr clamp(100px, 130px, 160px);
+    grid-template-rows: 1fr auto;
     margin-bottom: 0;
     `}
 `
@@ -40,7 +41,7 @@ export const ProjectItemThumb = styled.div`
     border-top-right-radius: 10px;
 
     ${media.greaterThan("600px")`
-        height: clamp(220px, 310px, 350px);
+        height: clamp(160px,340px,360px);
     `}
 `
 
@@ -50,10 +51,8 @@ export const ProjectItemContent = styled.div`
     padding: 15px;
 
     ${media.greaterThan("600px")`
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 10px;
-    border-top-right-radius: 10px;
+        border-radius: 0;
+        height: 100%;
     `}
 `
 
