@@ -16,10 +16,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus felis id pu
 
 Lorem ipsum dolor `sit` amet, consectetur adipiscing elit. Nunc cursus felis id purus tincidunt suscipit. Nam blandit quam vel tortor viverra, non aliquam lectus commodo. Suspendisse commodo magna sagittis, ultrices urna vel, imperdiet quam. Donec auctor justo non nibh scelerisque, nec interdum sem bibendum.
 
-![Marccio Post](/assets/img/imagem-2.png)
-![Marccio Post](/assets/img/imagem-2.png)
-![Marccio Post](/assets/img/imagem-2.png)
-![Marccio Post](/assets/img/imagem-2.png)
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus felis id purus tincidunt suscipit. Nam blandit quam vel tortor viverra, non aliquam lectus commodo. Suspendisse commodo magna sagittis, ultrices urna vel, imperdiet quam. Donec auctor justo non nibh scelerisque, nec interdum sem bibendum. Maecenas tincidunt volutpat libero nec euismod. Cras tempor metus sit amet est dignissim, ac imperdiet est aliquam. Proin vitae augue eget libero congue semper. Nullam quis risus leo. Vivamus non bibendum turpis.
 
