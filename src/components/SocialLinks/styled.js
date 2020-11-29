@@ -4,7 +4,6 @@ export const SocialLinksWrapper = styled.nav`
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 4.840rem;
 
 `
 
@@ -16,7 +15,9 @@ export const SocialLnksList = styled.ul`
     align-items: center;
 `
 
-export const SocialLinksItem = styled.li``
+export const SocialLinksItem = styled.li`
+    margin-left: 1.6rem;
+`
 
 export const SocialLinksLink = styled.a`
     color: #fafafa;

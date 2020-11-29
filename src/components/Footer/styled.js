@@ -39,7 +39,7 @@ export const MenuLinksItem = styled.li`
 
     .active {
         color: var(--contrast);
-        font-weight: 600;
+        font-weight: 400;
     }
 
     .active::after {
@@ -55,8 +55,8 @@ export const MenuLinksItem = styled.li`
 
 export const MenuLinksLink = styled(AniLink)`
     color: var(--text);
-    font-size: .95rem;
-    font-weight: 500;
+    font-size: .82rem;
+    font-weight: 400;
     text-decoration: none;
     transition: color .5s;
 
@@ -71,6 +71,20 @@ export const MenuLinksLink = styled(AniLink)`
     }
 `
 
-export const FooterSocialItems = styled.div`
+export const CopyrightWrapper = styled.div`
     
+    p {
+        font-size: .82rem;
+        color: var(--text);
+        text-align: center;
+        line-height: 120%;
+    }
+    a {
+        text-decoration: none;
+        color: var(--contrast);
+    }
+`
+
+export const FooterSocialItems = styled.div`
+    display: block;
 `

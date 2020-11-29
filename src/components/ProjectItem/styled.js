@@ -48,7 +48,7 @@ export const ProjectItemThumb = styled.div`
 export const ProjectItemContent = styled.div`
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 15px;
+    padding: 1.5rem;
 
     ${media.greaterThan("600px")`
         border-radius: 0;
@@ -58,16 +58,15 @@ export const ProjectItemContent = styled.div`
 
 export const ProjectItemTag = styled.p`
     color: var(--text);
-    font-size: .8rem;
-    margin-bottom: 7px;
-    margin-top: 7px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 `
 
 export const ProjectItemTitle = styled.h2`
     color: var(--contrast);
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 1.2rem;
 `
 
 export const ProjectItemDescription = styled.p`

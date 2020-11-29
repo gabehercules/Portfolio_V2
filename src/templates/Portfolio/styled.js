@@ -15,5 +15,5 @@ export const PortfolioGrid = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 25px;
+    grid-gap: 50px;
 `

@@ -1,9 +1,12 @@
 import React from "react"
 import * as S from "./styled"
+import SocialLinks from "../SocialLinks"
 import links from "../Header/content"
 
-const Footer = () => (
-    <S.FooterWrapper>
+const Footer = () => {
+   
+    return(
+   <S.FooterWrapper>
 
         <S.MenuLinksNav>
             <S.MenuLinksList>
@@ -14,9 +17,15 @@ const Footer = () => (
                 ))}
             </S.MenuLinksList>
         </S.MenuLinksNav>
+        <S.CopyrightWrapper>
+            <p>© Gabriel Hercules - Todos os direitos reservados</p>
+            <p>Desenvolvido com React e <a href="https://gatsbyjs.com" rel="noopener noreferrer" target="_blank">GatsbyJS</a></p>
+        </S.CopyrightWrapper>
         <S.FooterSocialItems>
+            <SocialLinks />
         </S.FooterSocialItems>
     </S.FooterWrapper>
-)
+    )
+}
 
 export default Footer

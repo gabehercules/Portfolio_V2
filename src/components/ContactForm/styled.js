@@ -6,6 +6,10 @@ export const FormWrapper = styled.div`
 
 ${media.greaterThan("768px")`
     padding: 4rem 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 `}
 `
 
@@ -24,12 +28,15 @@ export const ContactSubtitle = styled.p`
 
 export const FormBlock = styled.div`
     margin-top: 3rem;
+    width: 60%;
+    background-color: var(--lightBackground);
+    padding: 2rem;
+    border-radius: 10px;
 
     div{
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
-        width: 40%;
     }
 
     label{
@@ -43,7 +50,7 @@ export const FormBlock = styled.div`
         border: none;
         border-radius: 6px;
         outline: none;
-        background-color: var(--lightBackground);
+        background-color: var(--darkerBackground);
         color: var(--title);
         padding: 10px 15px;
         box-shadow: none;
@@ -54,12 +61,12 @@ export const FormBlock = styled.div`
         height: 126px;
         resize: vertical;
         padding: 10px 15px;
-        border: 1px solid var(--darkerBackground);
+        border: none;
         border-radius: 10px;
         outline: none;
         color: var(--title);
         font-family: 'Poppins', sans-serif;
-        background-color: var(--lightBackground);
+        background-color: var(--darkerBackground);
     }
 
     button{
@@ -76,4 +83,16 @@ export const FormBlock = styled.div`
     border: none;
     font-size: 1rem;
     }
+
+    input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 100px var(--darkerBackground) inset !important;
+    border: none !important;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--title) !important;
+}
 `

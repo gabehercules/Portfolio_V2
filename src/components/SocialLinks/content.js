@@ -12,8 +12,8 @@ const links = [
         url: "https://www.medium.com/@gabrielsyze",
     },
     {
-        label: "Twitter",
-        url: "https://www.twitter.com/Gabe7Hercules",
+        label: "Dribbble",
+        url: "https://www.dribbble.com/GabeHercules",
     },
     {
         label: "Linkedin",

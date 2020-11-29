@@ -29,23 +29,23 @@ const ProjectsSection = () => (
 
 
 export const query = graphql`
-  query PortfolioFeatured {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}, sort: {fields: frontmatter___date, order: DESC}, limit: 4) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            category
-            description
-            title
-          }
+query portfolioFeatured {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}, sort: {fields: frontmatter___date, order: DESC}, limit: 4) {
+    edges {
+      node {
+        id
+        fields {
+          slug
+        }
+        frontmatter {
+          thumbnail
+          title
         }
       }
     }
   }
+}
+
     `
 
 
