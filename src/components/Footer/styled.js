@@ -6,10 +6,6 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const FooterWrapper = styled.footer`
     display: none;
 
-    ${media.greaterThan("large")`
-        padding: 1rem 8.6rem;
-    `}
-
     ${media.greaterThan("medium")`
         width: 100%;
         display: flex;
@@ -18,6 +14,10 @@ export const FooterWrapper = styled.footer`
         align-items: center;
         background-color: var(--lightBackground);
         flex-direction: row;
+    `}
+
+    ${media.greaterThan("large")`
+        padding: 1rem 8.6rem;
     `}
 `
 

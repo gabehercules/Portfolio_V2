@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const TabbarWrapper = styled.nav`
     width: 100vw;
@@ -22,7 +22,7 @@ export const TabbarGroup = styled.div`
     justify-content: space-evenly;
 `
 
-export const TabbarLink = styled(Link)`
+export const TabbarLink = styled(AniLink)`
     display: flex;
     padding: 5px;
     flex-direction: column;

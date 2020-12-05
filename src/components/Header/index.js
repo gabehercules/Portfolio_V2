@@ -10,9 +10,8 @@ import * as S from "./styled"
 const Header = () => (
     <S.HeaderWrapper>
         <S.HeaderLogo>
-            <Logo />
             <S.HeaderName>
-                <h4>Gabriel Hercules</h4>
+                <h5>Gabriel Hercules<span>GH</span></h5>
             </S.HeaderName>
         </S.HeaderLogo>
         <S.MenuLinksNav>

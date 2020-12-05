@@ -9,11 +9,10 @@ const HeroSection = () => (
 
     <S.HeroSectionWrapper>
         <S.HeroContainer>
-            <S.HeroName>Hey! Meu nome é Gabriel Hercules e</S.HeroName>
-            <S.HeroValor>Desenvolvo <S.HeroSpan>marcas e experiências que motivam</S.HeroSpan>.</S.HeroValor>
+            <S.HeroValor>Seu produto motiva seus usuários?</S.HeroValor>
             <S.HeroDescription>Sou um designer freelancer apaixonado por fazer com que marcas e produtos se conectem à pessoas, e 
                 proporcionem experiências motivadoras.</S.HeroDescription>
-            <S.HeroCTA to="/portfolio/" cover direction="left" bg="#141414" duration={0.6} title="Ver Projetos">Motive-se
+            <S.HeroCTA to="/portfolio/" cover direction="left" bg="#141414" duration={0.6} title="Ver Cases">Motive-se
                 <S.BtnSpan>
                     <GoBtn />
                 </S.BtnSpan>

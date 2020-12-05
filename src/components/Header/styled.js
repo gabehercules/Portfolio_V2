@@ -23,10 +23,16 @@ export const HeaderLogo = styled.div`
 export const HeaderName = styled.div`
     margin-left: 1rem;
 
-    h4 {
-        font-size: 1.6rem;
+    span{
+        color: var(--contrast);
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
         color: var(--title);
-        font-weight: 600;
+        font-weight: 300;
     }
 `
 

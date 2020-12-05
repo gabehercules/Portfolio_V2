@@ -3,7 +3,7 @@ module.exports = {
     title: `Gabriel Hercules | Brand Experience Designer`,
     description: `Hey! Eu sou o Gabriel. E desenvolvo experiências motivadoras para marcas, produtos e pessoas.`,
     author: `@Me`,
-    siteUrl: `https://gabe-portfolio.netlify.app/`,
+    siteUrl: `https://gabehercules.me/`,
   },
 
   plugins: [
@@ -66,9 +66,9 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#121212`,
-        theme_color: `#e20749`,
+        theme_color: `#181818`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
 

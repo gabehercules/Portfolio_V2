@@ -25,6 +25,14 @@ export const ThankMessage = styled.div`
         font-weight: 600;
     }
 
+    span{
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 400;
+        color: var(--text);
+    }
+
 `
 
 export const BackContact = styled.div`

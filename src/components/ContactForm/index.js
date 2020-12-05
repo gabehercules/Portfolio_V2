@@ -3,9 +3,11 @@ import * as S from "./styled"
 
 const ContactForm = () => (
     <S.FormWrapper>
-        <S.ContactTitle>Entre em contato preenchendo o formulário</S.ContactTitle>
-        <S.ContactSubtitle>Responderei sua mensagem o mais breve possível, e fique tranquilo, você não receberá spam.</S.ContactSubtitle>
         <S.FormBlock>
+            <S.ContactTitle>Formulário de contato</S.ContactTitle>
+            <S.ContactSubtitle>Responderei sua mensagem na velocidade da luz. E fique tranquilo, 
+                o lado Designer da força não manda spam.
+            </S.ContactSubtitle>
             <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/obrigado/">
                 <input type="hidden" name="form-name" value="Contact Form" />
                 <div>

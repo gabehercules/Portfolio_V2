@@ -5,7 +5,7 @@ const links = [
     },
     {
         label: "Instagram",
-        url: "https://www.instagram.com/bagriel_hercules",
+        url: "https://www.instagram.com/hercules.design",
     },
     {
         label: "Medium",

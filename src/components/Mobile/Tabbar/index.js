@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 
 
 
@@ -22,19 +22,11 @@ import * as S from "./styled"
 
 
 const Tabbar = () => {
-    const [theme, setTheme] = useState(null)
-
-    const isDarkMode = theme === 'dark'
-
-    useEffect(() => {
-        setTheme(window.__theme)
-        window.__onThemeChange = () => setTheme(window.__theme)
-    }, [])
 
     return (
         <S.TabbarWrapper>
             <S.TabbarGroup>
-                <S.TabbarLink to="/" title="Voltar para o Início">
+                <S.TabbarLink to="/" cover direction="left" bg="#141414" duration={0.6} title="Voltar para o Início">
                     <S.TabbarItem>
                         <Home />
                     </S.TabbarItem>
@@ -43,7 +35,7 @@ const Tabbar = () => {
                 </S.TabbarName>
                 </S.TabbarLink>
 
-                <S.TabbarLink to="/portfolio/" title="Portfólio">
+                <S.TabbarLink to="/portfolio/" cover direction="left" bg="#141414" duration={0.6} title="Portfólio">
                     <S.TabbarItem>
                         <Portfolio />
                     </S.TabbarItem>
@@ -52,7 +44,7 @@ const Tabbar = () => {
                 </S.TabbarName>
                 </S.TabbarLink>
 
-                <S.TabbarLink to="/blog" title="Abrir Menu">
+                <S.TabbarLink to="/contato" cover direction="left" bg="#141414" duration={0.6} title="Abrir Menu">
                     <S.TabbarItem>
                         <Blog />
                     </S.TabbarItem>
@@ -70,10 +62,8 @@ const Tabbar = () => {
                 </S.TabbarName>
                 </S.TabbarLink>
 
-                <S.TabbarLink>
-                    <S.TabbarItem title="Mudar o tema" onClick={() => {
-                        window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
-                    }}>
+                <S.TabbarLink cover href="https://www.instagram.com/hercules.design" direction="left" bg="#141414" duration={0.6} rel="noopener noreferrer" target="_blank" title="Instagram">
+                    <S.TabbarItem>
                         <Instagram />
                     </S.TabbarItem>
                     <S.TabbarName>

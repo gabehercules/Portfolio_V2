@@ -21,16 +21,8 @@ export const HeroContainer = styled.div`
     `}
 
     ${media.greaterThan("991px")`
-        width: 60%;
+        width: 100%;
     `}
-`
-
-export const HeroName = styled.h3`
-    font-size: 1rem;
-    padding-top: 1.2rem;
-    margin-bottom: 1.8rem;
-    color: var(--text);
-    font-weight: 400;
 `
 
 export const HeroValor = styled.h1`
@@ -38,9 +30,18 @@ export const HeroValor = styled.h1`
     color: var(--title);
     margin-bottom: 2.6rem;
     font-weight: 600;
+    line-height: 120%;
+
+    ${media.lessThan("600px")`
+        font-size: 3.14rem;
+    `}
 
     ${media.greaterThan("medium")`
-    font-size: 3.4rem;
+        font-size: 4.4rem;
+    `}
+
+    ${media.greaterThan("991px")`
+    font-size: 5.4rem;
     `}
 `
 
@@ -50,10 +51,18 @@ export const HeroSpan = styled.span`
 
 export const HeroDescription = styled.p`
     color: var(--text);
-    font-size: .9rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 2.6rem;
     line-height: 120%;
+
+    ${media.greaterThan("medium")`
+        width: 100%;
+    `}
+
+    ${media.greaterThan("991px")`
+        width: 60%;
+    `}
 `
 export const HeroCTA = styled(AniLink)`
     padding: 10px 20px;

@@ -18,12 +18,26 @@ export const ContactTitle = styled.h2`
     color: var(--title);
     font-weight: 600;
     margin-bottom: 1.2rem;
+    text-align: center;
+
+    
 `
 
 export const ContactSubtitle = styled.p`
     color: var(--text);
-        line-height: 120%;
-        font-size: .9rem;
+    line-height: 120%;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 2rem;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #444;
+        margin-top: 2rem;
+    }
 `
 
 export const FormBlock = styled.div`
