@@ -12,11 +12,11 @@ const Thumbnail = props => (
         ) {
           edges {
             node {
+              id
               relativePath
               name
               childImageSharp {
                 fluid(maxWidth: 580, quality: 100) {
-                  id
                   ...GatsbyImageSharpFluid
                 }
               }
