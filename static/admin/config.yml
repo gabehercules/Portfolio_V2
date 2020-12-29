@@ -6,8 +6,8 @@ backend:
   site_doamin: gabehercules.me
 
 publish_mode: editorial_workflow
-media_folder: static/assets/img/
-public_folder: ""
+media_folder: static/assets/img
+public_folder: /assets/img
 
 
 collections:
