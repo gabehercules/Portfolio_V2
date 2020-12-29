@@ -1,6 +1,5 @@
 import React from "react"
 
-import Logo from "../Logo"
 import links from "./content"
 
 import * as S from "./styled"
@@ -11,7 +10,7 @@ const Header = () => (
     <S.HeaderWrapper>
         <S.HeaderLogo>
             <S.HeaderName>
-                <h5>Gabriel Hercules<span>GH</span></h5>
+                <h5>Gabriel Hercules</h5>
             </S.HeaderName>
         </S.HeaderLogo>
         <S.MenuLinksNav>

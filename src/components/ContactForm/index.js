@@ -12,17 +12,17 @@ const ContactForm = () => (
                 <input type="hidden" name="form-name" value="Contact Form" />
                 <div>
                     <label htmlFor="email">Seu email</label>
-                    <input type="email" id="email" name="email" />
+                    <input type="email" id="email" name="email" required />
                 </div>
 
                 <div>
                     <label htmlFor="name">Nome completo</label>
-                    <input type="name" id="name" name="name" />
+                    <input type="name" id="name" name="name" required />
                 </div>
 
                 <div>
                     <label htmlFor="phone">Telefone</label>
-                    <input type="phone" id="phone" name="phone" />
+                    <input type="phone" id="phone" name="phone" required />
                 </div>
 
                 <div>

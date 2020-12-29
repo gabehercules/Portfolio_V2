@@ -25,7 +25,7 @@ export const HeaderName = styled.div`
 
     span{
         color: var(--contrast);
-        font-weight: 400;
+        font-weight: 600;
         margin-left: 1rem;
     }
 
