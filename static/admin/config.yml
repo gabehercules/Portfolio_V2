@@ -3,10 +3,10 @@ backend:
   auth_endpoint: auth
   repo: gabehercules/Portfolio_V2
   branch: master
-  site_doamin: gabehercules.me/
+  site_doamin: gabehercules.me
 
 publish_mode: editorial_workflow
-media_folder: static/assets/img
+media_folder: static/assets/img/
 public_folder: ""
 
 
