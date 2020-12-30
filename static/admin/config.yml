@@ -7,7 +7,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: static/assets/img
-public_folder: /assets/img
+public_folder: ""
 
 
 collections:
@@ -22,6 +22,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - {label: "Thumbnail", name: "thumbnail", widget: "image" }
       - {label: "Category", name: "category", widget: "select", options: ["UI Design", "Product Design", "Web Design", "Brand Design", "UX Design", "UI/UX"]}
       - {label: "Body", name: "body", widget: "markdown"}
