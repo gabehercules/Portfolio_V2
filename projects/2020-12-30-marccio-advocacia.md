@@ -5,4 +5,4 @@ date: 2020-07-16 03:21:10
 thumbnail: artboard-4.png
 category: Brand Design
 ---
-![](artboard-4.png)
+![](/assets/img/artboard-4.png)
