@@ -70,6 +70,7 @@ export const MainContent = styled.section`
     letter-spacing: 0.069rem;
   }
   p {
+    margin: 0 auto;
     font-weight: 300;
     color: var(--text);
   }
@@ -104,6 +105,7 @@ export const MainContent = styled.section`
     max-width: 100%;
     border-radius: 3px;
     margin: 0 auto;
+
   }
   iframe {
     padding: 0 1.6rem 1.6rem;
