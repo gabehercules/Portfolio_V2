@@ -70,7 +70,6 @@ export const MainContent = styled.section`
     letter-spacing: 0.069rem;
   }
   p {
-    margin: 0 auto 1.6rem;
     font-weight: 300;
     color: var(--text);
   }
@@ -195,4 +194,5 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+  
 `
