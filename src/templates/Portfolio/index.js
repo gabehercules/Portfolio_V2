@@ -62,7 +62,7 @@ const PortfolioList = props => {
 
 export const query = graphql`
     query PortfolioList{
-        allMarkdownRemark( filter: { fileAbsolutePath: { regex: "/projects/" }}
+        allMarkdownRemark(
             sort: { fields: frontmatter___date, order: DESC }
         ) {
           edges {

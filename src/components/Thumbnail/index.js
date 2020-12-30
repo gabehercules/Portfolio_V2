@@ -8,11 +8,10 @@ const Thumbnail = props => (
     query={graphql`
       query {
         images: allFile(
-          filter: { absolutePath: { regex: "static/assets/img/" } }
+          filter: { absolutePath: { regex: "/static/assets/img/" } }
         ) {
           edges {
             node {
-              id
               relativePath
               name
               childImageSharp {
