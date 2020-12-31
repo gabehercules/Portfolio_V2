@@ -70,9 +70,12 @@ export const MainContent = styled.section`
     letter-spacing: 0.069rem;
   }
   p {
-    margin: 0 auto;
+    margin: 30px auto;
     font-weight: 300;
     color: var(--text);
+  }
+  span.gatsby-resp-image-wrapper {
+    margin-bottom: -30px !important;
   }
   h1,
   h2,
@@ -104,7 +107,7 @@ export const MainContent = styled.section`
     display: block;
     max-width: 100%;
     border-radius: 3px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 
   }
   iframe {
