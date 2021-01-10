@@ -70,7 +70,7 @@ export const MainContent = styled.section`
     letter-spacing: 0.069rem;
   }
   p {
-    margin: 30px auto;
+    margin: 0 auto 30px;
     font-weight: 300;
     color: var(--text);
   }
