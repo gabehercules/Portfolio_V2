@@ -10,4 +10,4 @@ category: UI/UX
 
 O projeto esta quase saindo do forno! Mais alguns preparos e uma apresentação incrível de case estará nesta mesma página!
 
-![Royal Advice Cover](cover.jpg "Royal Advice Cover")
+![Royal Advice Cover](/assets/img/cover.jpg "Royal Advice Cover")
