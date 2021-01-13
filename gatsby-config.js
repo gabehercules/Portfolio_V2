@@ -3,7 +3,7 @@ module.exports = {
     title: `Gabriel Hercules | Brand Experience Designer`,
     description: `Hey! Eu sou o Gabriel. E desenvolvo experiências motivadoras para marcas, produtos e pessoas.`,
     author: `@Me`,
-    siteUrl: `https://gabehercules.me/`,
+    siteUrl: `https://gabehercules.me`,
   },
 
   plugins: [
