@@ -23,7 +23,9 @@ const PortfolioList = props => {
 
   return (
     <Layout>
-      <SEO title="Portfólio" />
+      <SEO title="Portfólio" description="Confira os últimos projetos que desenvolvi.
+      Você também pode acompanhar meu Instagram @hercules.design se quiser seguir meu
+      trabalho mais de perto."/>
       <PortfolioHeading />
       <S.PortfolioWrapper>
         <S.PortfolioGrid>

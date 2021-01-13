@@ -10,7 +10,7 @@ import ContactForm from "../components/ContactForm"
 
 const contactPage = () => (
   <Layout>
-    <SEO title="Contato" />
+    <SEO title="Contato" description="Entre em contato preenchendo o formulário ou pelo whatsapp (11)94480-1999"/>
     <ContactHeading />
     <ContactForm />
     <ContactInfo />
