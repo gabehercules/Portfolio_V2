@@ -11,7 +11,7 @@ const ContactHeading = () => (
             href="mailto:hey@gabehercules.me"
             target="__blank"
             rel="noreferrer noopener">
-            hey@gabehercules.me
+            eu@gabehercules.me
             </S.ContentLink>.
             </S.ContentParagraph>
             <S.ContentParagraph>
