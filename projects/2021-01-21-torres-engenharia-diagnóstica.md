@@ -9,7 +9,7 @@ category: Brand Design
 
 A Identidade para **Torres Engenharia Diagnóstica**, foi um desafio, por reunir uma área séria, com muitas informações técnicas em um logotipo que esbanjasse tanto seriedade, como fosse algo único e singular, transmitindo profissionalismo e ética em um segmento onde tais atributos são chave para o sucesso.
 
-Para isso, vários testes foram feitos até chegar em um resultado que ficasse a cara da empresa, no meu [Dribbble](https://dribbble.com/Gabe7Hercules) você confere uma das  versões de rascunho feitas assim como sua ***grid de construção***.
+Para isso, vários testes foram feitos até chegar em um resultado que ficasse a cara da empresa, no meu <a href="https://www.dribbble.com/Gabe7Hercules" target="_blank">Dribbble</a> você confere uma das  versões de rascunho feitas assim como sua ***grid de construção***.
 
 ![Torres Engenharia Diagnóstica - Logotipo Assinatura Principal Horizontal](/assets/img/torres-engenharia-diagnóstica_01.jpg "Torres Engenharia Diagnóstica - Logotipo Assinatura Principal Horizontal")
 
