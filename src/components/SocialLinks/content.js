@@ -13,7 +13,7 @@ const links = [
     },
     {
         label: "Dribbble",
-        url: "https://www.dribbble.com/GabeHercules",
+        url: "https://www.dribbble.com/Gabe7Hercules",
     },
     {
         label: "Linkedin",
