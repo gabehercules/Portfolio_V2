@@ -19,6 +19,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-177307288-1",
       },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
