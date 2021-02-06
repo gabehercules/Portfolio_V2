@@ -12,6 +12,14 @@ module.exports = {
     `gatsby-plugin-styled-components`,
 
     // needs to be the first to work with gatsby-remar-images
+
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-177307288-1",
+      },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
