@@ -19,7 +19,6 @@ const IndexPage = () => (
       <ServicesUIUX />
       <WorkSection />
       <OnlineBriefing />
-      <Testimonials />
       <ContactHome />
   </Layout>
 )
