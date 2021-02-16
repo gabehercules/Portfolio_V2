@@ -90,3 +90,26 @@ export const MenuLinksLink = styled(AniLink)`
         margin-left: 2px;
     }
 `
+
+export const BriefingButton = styled(AniLink)`
+    padding: 10px 20px;
+    background-color: var(--contrast);
+    border-radius: 5px;
+    display: inline-block;
+    transition: 300ms ease-out;
+    color: var(--title);
+    text-decoration: none;   
+    margin-left: 2rem;
+
+
+    span{
+        height: 12px;
+        vertical-align: middle;
+        margin-left: .9rem;
+        color: var(--background);
+
+        svg {
+            width: 22px;
+        }
+    }
+`

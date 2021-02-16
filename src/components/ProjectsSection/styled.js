@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const ProjectsWrapper = styled.section`
     padding: 50px 1.6rem;
@@ -28,7 +29,7 @@ export const ProjectsHeading = styled.h2`
     font-weight: 600;
 `
 
-export const ProjectsBtnBudget = styled.a`
+export const ProjectsBtnBudget = styled(AniLink)`
     padding: 10px 20px;
     background-color: var(--contrast);
     border-radius: 5px;
@@ -50,11 +51,36 @@ export const BudgetSpan = styled.span`
 `
 
 export const ProjectsGrid = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 60px;
+
+    ${media.lessThan("991px")`
+        grid-gap: 30px;
+    `}
+
+    ${media.lessThan("768px")`
+        display: block;
+    `}
 `
 
-export const ProjectsLink = styled.a`
-    margin-right: 20px;
+export const ProjectsLink = styled(AniLink)`
+    background-color: var(--darkerBackground);
+    border: 2px solid #070707;
+    border-radius: 10px;
+    transition: .4s ease-in;
+    overflow: auto;
+    display: block;
+
+
+    &:hover {
+        border-color: var(--contrast);
+    }
+
+    ${media.lessThan("768px")`
+        margin-bottom: 50px;
+    `}
 `
 
 export const ProjectsImg = styled.div`

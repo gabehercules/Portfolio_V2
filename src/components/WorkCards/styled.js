@@ -21,6 +21,7 @@ export const WorkCardsWrapper = styled.div`
 export const CardsItem = styled.div`
     border-radius: 5px;
     margin-bottom: 2rem;
+    border: 1px solid #070707;
 
     ${media.greaterThan("medium")`
         margin-bottom: 0;

@@ -4,6 +4,7 @@ import media from "styled-media-query"
 
 export const ProjectHeaderWrapper = styled.div`
   background-color: var(--lightBackground);
+  border-bottom: 1px solid #070707;
 `
 
 export const ProjectHeader = styled.header`

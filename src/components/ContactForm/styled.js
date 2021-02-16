@@ -35,7 +35,7 @@ export const ContactSubtitle = styled.p`
         display: block;
         height: 1px;
         width: 100%;
-        background-color: #444;
+        background-color: #070707;
         margin-top: 2rem;
     }
 `
@@ -46,6 +46,7 @@ export const FormBlock = styled.div`
     background-color: var(--lightBackground);
     padding: 2rem;
     border-radius: 10px;
+    border: 1px solid #070707;
     
     ${media.greaterThan("medium")`
         width: 80%;
@@ -69,7 +70,7 @@ export const FormBlock = styled.div`
 
     input{
         height: 42px;
-        border: none;
+        border: 1px solid #070707;
         border-radius: 6px;
         outline: none;
         background-color: var(--darkerBackground);
@@ -83,7 +84,7 @@ export const FormBlock = styled.div`
         height: 126px;
         resize: vertical;
         padding: 10px 15px;
-        border: none;
+        border: 1px solid #070707;
         border-radius: 10px;
         outline: none;
         color: var(--title);

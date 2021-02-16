@@ -5,6 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const ProjectItemLink = styled(AniLink)`
     text-decoration: none;
     background-color: var(--lightBackground);
+    border: 2px solid #070707;
 
     border-radius: 10px;
     overflow: hidden;
@@ -12,6 +13,7 @@ export const ProjectItemLink = styled(AniLink)`
 
     &:hover {
         background-color: #202020;
+        border: 2px solid var(--contrast);
     }
 `
 

@@ -7,6 +7,7 @@ export const HeroSectionWrapper = styled.section`
     min-height: 70vh;
     padding-bottom: 4rem;
     padding-top: 4rem;
+    border-bottom: 1px solid #070707;
 `
 
 export const HeroContainer = styled.div`

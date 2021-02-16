@@ -5,7 +5,10 @@ import SEO from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import ProjectsSection from "../components/ProjectsSection"
 import WorkSection from "../components/WorkSection"
-import AdvantageSection from "../components/AdvantageSection"
+import Testimonials from "../components/Testimonials"
+import ServicesUIUX from "../components/ServicesUIUX"
+import OnlineBriefing from "../components/OnlineBriefing"
+import ContactHome from "../components/ContactHome"
 
 
 const IndexPage = () => (
@@ -13,8 +16,11 @@ const IndexPage = () => (
     <SEO title="Início" />
       <HeroSection />
       <ProjectsSection />
+      <ServicesUIUX />
       <WorkSection />
-      <AdvantageSection />
+      <OnlineBriefing />
+      <Testimonials />
+      <ContactHome />
   </Layout>
 )
 

@@ -18,6 +18,7 @@ export const TabbarGroup = styled.div`
     width: 100%;
     background-color: var(--darkerBackground);
     display: flex;
+    border-top: 1px solid #070707;
     padding: .8rem 0;
     justify-content: space-evenly;
 `

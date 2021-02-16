@@ -7,6 +7,7 @@ export const SectionWrapper = styled.section`
 export const HeadingContent = styled.div`
     padding: 4rem 1.6rem;
     background-color: var(--lightBackground);
+    border-bottom: 1px solid #070707;
 
     ${media.greaterThan("medium")`
         padding: 4rem 8.6rem;

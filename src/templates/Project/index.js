@@ -9,8 +9,8 @@ import RecommendedPosts from "../../components/RecommendedPosts"
 
 const PortfolioProject = ({ data, pageContext }) => {
   const post = data.markdownRemark
-  const next = pageContext.nextPost
-  const previous = pageContext.previousPost
+  const next = pageContext.next
+  const previous = pageContext.previous
 
   return (
     <Layout>

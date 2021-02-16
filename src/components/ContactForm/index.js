@@ -11,17 +11,17 @@ const ContactForm = () => (
             <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/obrigado/">
                 <input type="hidden" name="form-name" value="Contact Form" />
                 <div>
-                    <label htmlFor="email">Seu email</label>
+                    <label htmlFor="email">Seu email*</label>
                     <input type="email" id="email" name="email" required />
                 </div>
 
                 <div>
-                    <label htmlFor="name">Nome completo</label>
+                    <label htmlFor="name">Nome e sobrenome*</label>
                     <input type="name" id="name" name="name" required />
                 </div>
 
                 <div>
-                    <label htmlFor="phone">Telefone</label>
+                    <label htmlFor="phone">Telefone com DDD*</label>
                     <input type="phone" id="phone" name="phone" required />
                 </div>
 

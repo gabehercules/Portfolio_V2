@@ -1,4 +1,6 @@
 import React from "react"
+import { ListUl as GoForm } from "@styled-icons/boxicons-regular/ListUl"
+
 
 import links from "./content"
 
@@ -21,6 +23,12 @@ const Header = () => (
                     </S.MenuLinksItem>
                 ))}
             </S.MenuLinksList>
+            <S.BriefingButton title="Briefing Online" alt="Clique para acessar o Briefing Online" to="/briefing/" cover direction="left" bg="#141414" duration={0.6}>
+                    Briefing
+                    <span>
+                        <GoForm />
+                    </span>
+                </S.BriefingButton>
         </S.MenuLinksNav>
     </S.HeaderWrapper>
 )
