@@ -29,7 +29,7 @@ const ServicesUIUX = () => (
 
     <S.ItemService>
         <h3>UI - para apps, sites e sistemas</h3>
-        <p>Criação de marcas completas, desde a concepção do primeiro sketch à toda a composição visual</p>
+        <p>Protótipos de alta e baixa fidelidade, para apps, web apps e sites</p>
     </S.ItemService>
 
         </S.ServicesItems>
