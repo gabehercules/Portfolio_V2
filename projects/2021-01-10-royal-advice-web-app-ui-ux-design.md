@@ -3,11 +3,27 @@ title: Royal Advice Web App - UI UX Design
 description: Desenvolvimento de telas e experiência de usuário para o aplicativo
   web da Royal Advice.
 date: 2020-10-14 12:17:46
-thumbnail: cover.jpg
+thumbnail: thumb.jpg
 category: UI/UX
 ---
-# Em breve
+# Em breve o estudo completo estará aqui.
 
-O projeto esta quase saindo do forno! Mais alguns preparos e uma apresentação incrível de case estará nesta mesma página!
+![Royal Advice Presentation](temp-presentation_01.jpg "Royal Advice Presentation")
 
-![Royal Advice Cover](/assets/img/cover.jpg "Royal Advice Cover")
+![Royal Advice Presentation](temp-presentation_02.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_03.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_04.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_05.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_06.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_07.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_08.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_09.jpg "Royal Advice Presentation")
+
+![Royal Advice Presentation](temp-presentation_10.jpg "Royal Advice Presentation")
