@@ -15,22 +15,22 @@ O projeto teve do começo ao fim, o acompanhamento minucioso de Guilherme Marça
 
 
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_01.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_01.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_02.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_02.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_03.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_03.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_04.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_04.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_05.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_05.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_06.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_06.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_07.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_07.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_08.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_08.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_09.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_09.jpg "Website Conversa Marketing")
 
-![Website Conversa Marketing](assets/img/conversamarketing.com_10.jpg "Website Conversa Marketing")
+![Website Conversa Marketing](/assets/img/conversamarketing.com_10.jpg "Website Conversa Marketing")
