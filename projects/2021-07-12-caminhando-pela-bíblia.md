@@ -1,8 +1,8 @@
 ---
-title: Caminhando Pela Bíblia
+title: Caminhando Pela Biblia
 description: Website para o Escritor, Harold Walker
 date: 2021-07-12 01:46:11
-thumbnail: thumb.jpg
+thumbnail: caminhando-thumb.jpg
 category: Web Design
 ---
 # **Apresentação aqui em alguns dias :)**
